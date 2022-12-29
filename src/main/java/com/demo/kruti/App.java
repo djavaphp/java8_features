@@ -1,9 +1,5 @@
-package org.example;
+package com.demo.kruti;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )

@@ -1,4 +1,4 @@
-package org.example;
+package com.demo.kruti;
 
 import static org.junit.Assert.assertTrue;
 
