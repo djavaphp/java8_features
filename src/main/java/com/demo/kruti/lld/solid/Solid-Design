@@ -1,0 +1,16 @@
+1. SOLID PRINCIPLES OF OOPS
+
+S - Single resp principle - a class have only one reason to change and only one responsibility
+O - Open/Close principle - open for extension but closed for modification
+L - Liskov Substitution Principle - subclass should replace the capability of parent class not narrow it down.
+I - Interface Segmented Principle- interface should be such that client should not implement unnecessary
+D - Dependency Inversion Principle - class should  depend on interface rather than concrete class
+
+Advantages:
+
+1. Easy to maintain
+2. avoid duplicate code
+3. easy to understand
+4. flexible
+5. reduce complexity
+
