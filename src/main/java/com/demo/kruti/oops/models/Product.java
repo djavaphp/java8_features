@@ -6,11 +6,19 @@ public class Product {
   private final double price;
   private int quantity;
 
+  public String getName() {
+    return name;
+  }
+
   // Constructor
   public Product(String name, double price, int quantity) {
     this.name = name;
     this.price = price;
     this.quantity = quantity;
+  }
+
+  public double getPrice() {
+    return price;
   }
 
   // Setter method for quantity with validation
@@ -37,5 +45,9 @@ public class Product {
     System.out.println("Product Name: " + name);
     System.out.println("Price: " + price);
     System.out.println("Quantity in stock: " + quantity);
+  }
+
+  public double calculatePrice() {
+    return price;
   }
 }
